@@ -22,8 +22,6 @@ class DeveloperAtMutualMobile(name:String,experience:Int):Employee(name,experien
 
 }
 fun main() {
-
-
     val eng = DeveloperAtMutualMobile("E.Guru Prasad",3)
     eng.employeeDetails()
     eng.dateOfBirth("30/12/2000")

@@ -7,9 +7,7 @@ interface MyInterface
     fun doSomething(){
         println("Doing something work here !")
     }
-
 }
-
 class InterfaceImplement : MyInterface{
 
     override val idValue: Int = 3456
@@ -17,8 +15,6 @@ class InterfaceImplement : MyInterface{
     override fun abstractMethod():String {
         return ("Implementing Abstract method")
     }
-
-
 }
 
 fun main(){

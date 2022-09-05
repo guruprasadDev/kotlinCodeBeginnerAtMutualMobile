@@ -17,6 +17,4 @@ fun main(){
     println("Student1 passing Status ${student.isPassed(45)}")
     println("Student2 Excellent Status ${student.isExcellent(98)}")
     println("Student3 filed Status ${student.isFiled(25)}")
-
-
 }

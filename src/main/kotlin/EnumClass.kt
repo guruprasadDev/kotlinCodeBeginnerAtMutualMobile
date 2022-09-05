@@ -10,9 +10,7 @@ enum class Days(val isWeekEnd : Boolean = false){
     companion object{
         fun today(obj:Days):Boolean{
             return obj.name.compareTo("SATURDAY")==0 || obj.name.compareTo("SUNDAY")==0
-
         }
-
     }
 }
 

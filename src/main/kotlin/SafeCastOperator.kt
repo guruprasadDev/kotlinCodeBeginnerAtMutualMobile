@@ -1,6 +1,6 @@
 fun main(){
 
-    val name:String = "Guru"
+    val name: Any = "Guru"
     var safeString : String? = name as? String?
     var safeInt : Int? = name as? Int?
 
